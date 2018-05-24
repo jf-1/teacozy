@@ -1,3 +1,90 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
 header {
   background-color: black;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  height: 700px;
+}
+
+.behind {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+  width: 1200px;
+}
+
+.mission {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thin {
+  background-color: black;
+}
+
+.middle {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.many {
+  background-color: black;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg);
+}
+
+.square {
+  background-color: black;
+}
+
+
+
+
+
+  or: black;
 }

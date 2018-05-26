@@ -33,58 +33,131 @@ a {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
+  color: seashell;
+  opacity: 0.9;
   font-weight: bold;
+  margin: 10px;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
   font-weight: bold;
+  margin: 10px;
 }
 
+h5 {
+  color: seashell;
+  opacity: 0.9;
+}
 .main {
   display: flex;
   height: 700px;
+  margin: 0;
+  width: 100%;
 }
 
-.behind {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
-  width: 1200px;
+.side {
+  background-color: black;
+  flex: 1 3%;
+}
+
+.middle {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 94%;
 }
 
 .mission {
   background-color: black;
+  height: 100px;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.thin {
-  background-color: black;
-}
-
-.middle {
+.trio {
   background-color: black;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  margin: 0;
 }
 
-.many {
+.textunder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.textunder img {
+  height: 200px;
+  width: 300px;
+}
+
+.duo {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 .locations {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg);
+  display: flex;
+  height: 500px;
+}
+
+.middlelow {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 94%;
+  }
+
+.adresses {
+  display: flex;
 }
 
 .square {
   background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.cozy {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
-  or: black;
+footer {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
 }

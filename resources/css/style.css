@@ -37,7 +37,11 @@ h2 {
   color: seashell;
   opacity: 0.9;
   font-weight: bold;
-  margin: 10px;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0 auto;
 }
 
 h4 {
@@ -51,7 +55,9 @@ h4 {
 h5 {
   color: seashell;
   opacity: 0.9;
+  margin-bottom: 10px;
 }
+
 .main {
   display: flex;
   height: 700px;
@@ -83,11 +89,22 @@ h5 {
   align-items: center;
 }
 
+.teacontainer {
+  background-color: black;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .trio {
   background-color: black;
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .textunder {
@@ -107,7 +124,8 @@ h5 {
   background-color: black;
   display: flex;
   justify-content: center;
-  margin: 0;
+  padding-bottom: 40px;
+  padding-top: 0px;
 }
 
 .locations {
@@ -133,11 +151,17 @@ h5 {
   background-color: black;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin: 15px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.bottom {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cozy {
@@ -148,14 +172,14 @@ h5 {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 footer {
   background-color: black;
-  height: 60px;
-  width: 100%;
+  /*height: 60px;
+  width: 100%;*/
   padding-left: 20px;
   padding-bottom: 20px;
   display: flex;
